@@ -54,7 +54,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-queue"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
-# CPU性能调节
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES cpufreq luci-app-cpufreq"
+# CPU性能调节 x86不要开启 只能arm开启
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES cpufreq luci-app-cpufreq"
 # coremark 跑分
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES coremark"
