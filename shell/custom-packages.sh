@@ -53,7 +53,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES cpufreq luci-app-cpufreq"
 # coremark 跑分
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES coremark"
 # wireguard
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wireguard"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wireguard"
 # Lucky大吉 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # Easytier
