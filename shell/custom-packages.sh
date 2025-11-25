@@ -53,7 +53,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES cpufreq luci-app-cpufreq"
 # coremark 跑分
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES coremark"
 # wireguard
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES wireguard"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES wireguard"
 # Lucky大吉 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # Easytier
@@ -61,4 +61,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # TailScale
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
 # Bandix
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
