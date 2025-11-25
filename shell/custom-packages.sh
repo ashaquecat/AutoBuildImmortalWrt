@@ -61,4 +61,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # TailScale
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
 # Bandix
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
