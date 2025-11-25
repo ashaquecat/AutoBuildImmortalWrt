@@ -23,8 +23,6 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 同样是代理相关 但以下2个属于imm仓库内的软件 一般在build24.sh中已经集成 你也可以在此处调整它的去留 若去除组件则使用减号- 若添加则 不使用减号 或者 不处理
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-openclash"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-homeproxy-zh-cn"
-# VPN
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
 # 分区扩容 by sirpdboy 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
 # 酷猫主题 by sirpdboy 
@@ -42,19 +40,25 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 设置向导 by sirpdboy
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
-# Lucky大吉 
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
-# kmod-nft-queue
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-queue"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 # 任务设置
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
-# Easytier
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+# kmod-nft-queue
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-queue"
 # CPU性能调节 x86不要开启 只能arm开启
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES cpufreq luci-app-cpufreq"
 # coremark 跑分
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES coremark"
+# wireguard
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES wireguard"
+# Lucky大吉 
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
+# Easytier
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
+# TailScale
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
+# Bandix
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
